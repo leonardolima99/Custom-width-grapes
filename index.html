@@ -9,9 +9,17 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
   </head>
   <body>
-    <div class="style-manager">q</div>
+    <div class="style-manager">
+      <h3>Largura</h3>
+      <input type="range" min="0" max="250" class="custom-width-range" />
+      <input type="text" class="custom-width-number" />
+      <select name="custom-width-unit">
+        <option value="px">px</option>
+        <option value="%">%</option>
+      </select>
+    </div>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
